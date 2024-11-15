@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness & Wellness hub</title>
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Updock&display=swap"
+        rel="stylesheet">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- aos -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+   
+   
+        <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div id="container">
+        <!-- navboot -->
+        <nav class="navbar shadow navbar-expand-lg  bg-body-tertiary  fixed-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#"><img class="logo" src="./image/gym-removebg-preview.png" alt=""></a>
+                <button class="navbar-toggler  border-0 fs-4" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body ms-5 ">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#container">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#workout">Workouts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Nutrition">Nutrition</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mindfullness">Mindfulness</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="#mindfullness">Blog</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contactpage">Contact</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#workouts" class="btn btn-primary btn-lg">Get Started</a>
+
+                            </li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- landpage -->
+        <section class="hero">
+            <div id="carouselExampleSlidesOnly" class="carousel slide cslide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active cimg" data-bs-interval="2000">
+                        <img class="img-fluid"
+                            src="https://www.fitness-world.in/wp-content/uploads/2022/01/5-Reasons-Why-Your-Residential-Building-Needs-a-Professional-Gym-Banner.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption   d-md-block label ">
+                            <h5>"Transform Your Life Through Fitness and Wellness"</h5>
+                            <p>"Join our community to explore tailored workout plans, nutritious recipes, <br> and
+                                holistic wellness tips designed to empower you on your journey <br> to a healthier,
+                                happier you."</p>
+                        </div>
+
+
+                    </div>
+                    <div class="carousel-item cimg" data-bs-interval="2000">
+                        <img class="img-fluid"
+                            src="https://www.usnews.com/dims4/USNEWS/24c26fb/2147483647/thumbnail/970x647/quality/85/?url=https:%2F%2Fwww.usnews.com%2Fcmsmedia%2Ffc%2Fbd%2Ff5bf654d4aeea10725d056424fe4%2Fgettyimages-1278940460.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption  d-md-block label ">
+                            <h5>"Nourish Your Body with Delicious, Nutritious Food"</h5>
+                            <p>"Explore a variety of wholesome recipes and meal plans <br> that fuel your workouts and
+                                promote overall health. <br> Discover how easy it is to incorporate nutritious <br>
+                                ingredients into your daily meals for a vibrant, energized life."</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item cimg" data-bs-interval="2000">
+                        <img class="img-fluid"
+                            src="https://th.bing.com/th/id/R.b9ec658912c234f9f711405c1b5b5019?rik=E8Ik4HhgoJWe8A&riu=http%3a%2f%2fsunnyhealthfitness.com%2fcdn%2fshop%2farticles%2fbenefits-guided-mindfulness-meditation-01.jpg%3fv%3d1681507395&ehk=P7PzyaA%2flGZqFStOwmz0P068%2fSaeejJe7XxJYkK1Dww%3d&risl=&pid=ImgRaw&r=0"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption  d-md-block label">
+                            <h5>"Cultivate Mindfulness for a Balanced Life"</h5>
+                            <p>"Embrace the power of mindfulness to enhance your well-being. <br> Explore techniques and
+                                practices that help you stay present, <br> reduce stress, and foster a deeper connection
+                                to yourself <br> and the world around you."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div>
+            <h1>Transform Your Life</h1>
+            <p>Join our community to achieve your fitness goals!</p>
+            <a href="#workouts" class="btn btn-primary btn-lg">Get Started</a>
+         </div>  -->
+        </section>
+        <!-- section2 -->
+        <section id="workout" class="workouts-section">
+            <div class="divi"></div>
+            <div class=" text-center wrkhead">
+                <h1>Transform Your Life</h1>
+                <p>Join our community to achieve your fitness goals!</p>
+                <a href="#workouts" class="btn btn-primary btn-lg">Get Started</a>
+            </div>
+            <div class="cardwrk d-flex flex-wrap">
+                <div class="card border-0 me-5 " style="width: 18rem;">
+                    <img class="img-fluid"
+                        src="https://ichef.bbci.co.uk/news/976/cpsprodpb/07F3/production/_89253020_thinkstockphotos-499237550.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Beginner Workouts</h5>
+                        <p class="card-text">Designed for newcomers, our beginner workouts focus on foundational
+                            strength and flexibility. Learn essential movements in a supportive environment to kickstart
+                            your fitness journey and build healthy habits.</p>
+                        <a href="#" class="btn btn-primary ">START</a>
+                    </div>
+                </div>
+                <div class="card me-5 border-0 " style="width: 18rem;">
+                    <img class="img-fluid"
+                        src="https://th.bing.com/th/id/R.568d90ad9c998d64cc8e8023056f98ce?rik=wPjve6VY7rjiwA&riu=http%3a%2f%2fwww.bodybuilding.com%2fimages%2f2016%2faugust%2f5-best-shoulder-workouts-for-mass-an-intermediate-guide-4.jpg&ehk=bOipmMt96Rtsr91bsoeXIQqx%2fYr9cnxZEcq6%2fYMjFxY%3d&risl=&pid=ImgRaw&r=0"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Intermediate Workouts</h5>
+                        <p class="card-text">For those ready to elevate their training, our intermediate workouts
+                            combine strength, cardio, and flexibility exercises. These sessions help you break through
+                            plateaus and enhance your overall fitness level.</p>
+                        <a href="#" class="btn btn-primary ">START</a>
+                    </div>
+                </div>
+                <div class="card border-0  me-5 " style="width: 18rem;">
+                    <img class="img-fluid"
+                        src="https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/intermediate-mass-building-workout-wide.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Advanced Workouts</h5>
+                        <p class="card-text">Tailored for seasoned fitness enthusiasts, our advanced workouts feature
+                            high-intensity routines and complex movements. Push your limits and maximize your
+                            performance with challenging sessions designed for serious results.
+
+                        </p>
+                        <a href="#" class="btn btn-primary ">START</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- section3nutri -->
+        <section id="Nutrition" class="nutri ">
+            <div class="divi"></div>
+            <div class="smallcard  "  d-flex flex-wrap data-aos="fade-up"
+            data-aos-duration="2000">
+                <div class="card cards text-bg-white h5 text-dark mb-3 ms-3 " style="max-width: 18rem;">
+                    <div class="card-header text-success">What We Offer</div>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Dark card title</h5>  -->
+                        <p class="card-text">Our nutrition coaching focuses on creating personalized meal plans that
+                            align with your health goals, dietary preferences, and lifestyle. Whether you're looking to
+                            lose weight, gain muscle, or simply eat healthier, we tailor our approach to meet your
+                            needs.</p>
+                    </div>
+                </div>
+                <div class="card cards text-bg-white  h5 text-dark mb-3 " style="max-width: 18rem;">
+                    <div class="card-header text-success">Personalized Assessments</div>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Dark card title</h5> -->
+                        <p class="card-text">Each client undergoes a comprehensive assessment, including dietary habits,
+                            lifestyle factors, and health goals. This helps us create a customized plan that fits you
+                            perfectly.</p>
+                    </div>
+                </div>
+                <div class="card cards text-bg-white h5 text-dark  mb-3 " style="max-width: 18rem;">
+                    <div class="card-header text-success ">Support and Accountability</div>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Dark card title</h5> -->
+                        <p class="card-text ">Regular check-ins and support ensure you stay on track. Our coaches are
+                            here to motivate you, celebrate your successes, and help you navigate challenges</p>
+                    </div>
+                </div>
+                <div class="card cards  text-bg-white text-dark mb-3 h5   " style="max-width: 18rem;">
+                    <div class="card-header text-success">Recipe Suggestions</div>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Dark card title</h5> -->
+                        <p class="card-text">Enjoy a variety of healthy, delicious recipes that make following your meal
+                            plan easy and satisfying</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- mind -->
+        <section id="mindfullness">
+            <div class="divi"></div>
+
+            <div class="mind " data-aos="flip-left">
+                <h1 class="text-center mind-text"> Discover the Power of Presence</h1>
+                <h6 class="text-center mind-text">Embrace the Present</h6>
+                <!-- side card -->
+                <div class="sidecard ">
+                    <div class="card card-side mb-3 border-0" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="img-fluid"
+                                    src="https://abc7amarillo.com/resources/media2/16x9/full/1015/center/80/5cbec7a4-673d-43f3-9f90-f43a9b0b5111-large16x9_GettyImages1462659206.jpg"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mindful Breathing
+                                    </h5>
+                                    <p class="card-text">Focus on your breath, inhaling and exhaling slowly. Allow your
+                                        thoughts to come and go as you concentrate on the sensation of breathing.</p>
+                                    <p class="card-text"><small class="text-body-secondary"><a href="">Join</a></small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-side mb-3 border-0" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="img-fluid"
+                                    src="https://s.yimg.com/uu/api/res/1.2/JPnlrRZ8yrKd71YYY1zGwQ--~B/aD0xNDk0O3c9MjQwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/time_72/e20d4fbe29a3cca80091ad8dda976c12"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Body Scan
+                                    </h5>
+                                    <p class="card-text">Mentally scan your body from head to toe, noticing any tension.
+                                        This practice encourages relaxation and body awareness.</p>
+                                    <p class="card-text"><small class="text-body-secondary"><a href="">Join</a></small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-side mb-3 border-0" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="img-fluid"
+                                    src="https://th.bing.com/th/id/OIP.MSO9o8VTmoMnX-6LvIQ2UgHaE8?w=900&h=600&rs=1&pid=ImgDetMain"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mindful Eating</h5>
+                                    <p class="card-text">Savor each bite of your meal. Pay attention to flavors and
+                                        textures, and listen to your body’s hunger cues.</p>
+                                    <p class="card-text"><small class="text-body-secondary"><a href="">Join</a></small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-side mb-3 border-0" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="img-fluid"
+                                    src="https://mindfulspot.com/wp-content/uploads/2018/06/walking-meditation.jpg"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Walking Meditation</h5>
+                                    <p class="card-text">Practice mindfulness while walking by focusing on each step and
+                                        your connection to the ground beneath you.</p>
+                                    <p class="card-text"><small class="text-body-secondary"><a href="">Join</a></small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- contact -->
+
+        <!-- <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Contact Us - Your Fitness and Wellness Website</title>
+            <link rel="stylesheet" href="styles.css">  Link to your CSS file -->
+        <!-- <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f9f9f9;
+                    margin: 0;
+                    padding: 20px;
+                }
+                .container {
+                    max-width: 800px;
+                    margin: 0 auto;
+                    background: #fff;
+                    padding: 20px;
+                    border-radius: 8px;
+                    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                }
+                h1 {
+                    text-align: center;
+                    color: #4CAF50;
+                }
+                .contact-info {
+                    margin-bottom: 20px;
+                }
+                .contact-info p {
+                    margin: 5px 0;
+                }
+                form {
+                    display: flex;
+                    flex-direction: column;
+                }
+                label {
+                    margin-top: 10px;
+                }
+                input, textarea {
+                    padding: 10px;
+                    margin-top: 5px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                }
+                button {
+                    margin-top: 20px;
+                    padding: 10px;
+                    background-color: #4CAF50;
+                    color: white;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background-color: #45a049;
+                }
+                .social-media {
+                    display: flex;
+                    justify-content: space-around;
+                    margin-top: 20px;
+                }
+            </style>
+        </head>
+        <body> -->
+
+        <section id="contactpage">
+            <div class="divi"></div>
+            <div class="divi"></div>
+            <div class="divi"></div>
+
+            <h1 class="text-success">Contact Us</h1>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a></p>
+                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Location:</strong> 123 Wellness Way, City, State, ZIP</p>
+            </div>
+
+            <h2>Get in Touch</h2>
+            <form action="submit_form.php" method="post"> <!-- Adjust the action to your form handling script -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone (optional):</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <h2>Follow Us</h2>
+            <div class="social-media">
+                <a class="media" href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a  class="media" href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+                <a  class="media" href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a  class="media" href="#"><i class="fa-brands fa-discord"></i></a>
+            </div>
+
+            <p><a href="faqs.html">Check out our FAQs</a> for quick answers to common questions.</p>
+        </section>
+
+        <!-- lklklklklkkl -->
+
+
+
+
+
+
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <!-- aos -->
+    <script>
+        AOS.init();
+      </script>
+
+</html>

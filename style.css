@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+#container{    overflow: hidden;
+}
+
+.logo{
+    width: 100px;
+}
+.hero{
+    position: absolute; 
+     margin-top: 130px;
+    width: 100%;
+}
+
+.carousel-item {
+    height: 100vh; /* Full viewport height */
+ }
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit:inherit; /* Cover the entire area */
+}
+  .label {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: rgb(241, 232, 232); 
+    background-color: rgba(0, 0, 0, 0.496);
+    padding: 30px 40px; width: 560px;
+    
+} 
+.label p{
+   margin-left: 40px;
+   text-align: center;
+   padding: 90px 40px;
+}
+.label h5{
+    margin-left: 40px;
+    text-align: center;
+    padding-left: 20px;
+}
+.workouts-section {
+    padding: 50px 0; /* Top and bottom padding */
+    position: absolute;
+    top: 960px;
+}
+.wrkhead{
+    margin-left: 300px;
+}
+.cardwrk{
+    margin-left: 290px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.divi{
+    height: 40px;
+    width: 100%;
+}
+.nutri{
+
+     position: absolute;
+    top: 2000px; 
+    background-image: url(https://th.bing.com/th/id/R.25b2b708d46d06c1043f92bc44b449c8?rik=IrHFioPicLAbgQ&riu=http%3a%2f%2fmeowmeix.com%2fwp-content%2fuploads%2f2016%2f03%2fimg_7709.jpg&ehk=1OQiT941no85n6eop%2fnlQh0ADnOlaP8CZjMLMbuYnaY%3d&risl=&pid=ImgRaw&r=0);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+}
+.smallcard{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 80px;
+
+}
+.card{
+    margin-left: 30px;
+}
+.card-text{
+    font-family: "Dancing Script", serif;
+    font-size: 20px;
+}
+.cards:hover{
+    box-shadow: -10px 0 10px;
+    animation: mymove 13s;
+}
+@keyframes mymove{
+    0%   {top: 0px;}
+    25%  {top: 150px;}
+    50%  {top: 100px;}
+    75%  {top: 150px;}
+    100% {top: 0px;}
+}
+.mind{
+    width: 1200px;
+    height: 600px;
+    margin-left: 140px;
+    margin-top: 2900px;
+    background-color: rgba(89, 165, 193, 0.103);
+}
+.mind-text{
+    font-family: "Playfair Display", serif;
+}
+.sidecard{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 30px;
+    
+}
+@media(max-width:760px){
+    .sidecard{
+    
+     display: block;
+        
+    } 
+    .mind{
+        /* width: 500px; */
+        width: 100%;
+        height: 1200px;
+        margin-bottom: 1000px;
+        margin-top: 4300px;
+        margin-left: 10px;
+    }
+    .mind-text{
+        font-size: 20px;
+        padding-left: 0px;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .cardwrk{
+        padding: 0px 0px; 
+        /* Top and bottom padding */
+    position: absolute;
+    top: 200px; 
+    bottom: 3800px;
+    right: 10px;
+    }
+    .card{
+        padding-left: 20px;
+    }
+    .workouts-section {
+        padding: 0px 0; /* Top and bottom padding */
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nutri{
+        margin-top: 780px;
+    }
+    .wrkhead{
+    margin-left: 50px;
+    }
+    .smallcard{
+        display: block;
+    }
+    .nutri{
+
+        position: absolute;
+       top: 2000px; 
+       background-image: url(https://th.bing.com/th/id/R.25b2b708d46d06c1043f92bc44b449c8?rik=IrHFioPicLAbgQ&riu=http%3a%2f%2fmeowmeix.com%2fwp-content%2fuploads%2f2016%2f03%2fimg_7709.jpg&ehk=1OQiT941no85n6eop%2fnlQh0ADnOlaP8CZjMLMbuYnaY%3d&risl=&pid=ImgRaw&r=0);
+   background-repeat: no-repeat;
+   background-size:cover;
+    width: 100%; 
+   height: 100%;
+   min-height: 1500px; 
+   }
+.label{
+    margin-left: 80px;
+    
+}
+.label p{
+    margin-left: 40px;
+    text-align: center;
+    padding: 40px 90px;
+ }
+ .label h5{
+   padding-left: 60px;
+   padding-right: 20px;
+ }
+ .smallcard{
+    padding-right: 60px;
+ }
+.logo{
+    margin-left: 15px;
+}
+
+    
+}
+
+small a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(212, 37, 10);
+    text-decoration: none;
+}
+.card-side:hover{
+    animation: topmove 2s;
+}
+@keyframes  topmove{
+    0% {top:0px;}
+    50% {top:-30px;}
+    100% {top:0px;}
+  
+
+   
+
+
+}
+
+
+
+/* contact */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+#contactpage {
+    max-width: 800px;
+    margin: 200px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 10px;
+}
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.media:hover{
+    background-image: linear-gradient(to right,red,orange,rgba(255, 255, 0, 0.396));
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+a i{
+    font-size: 30px;
+    color: black;
+}
